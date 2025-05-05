@@ -1,3 +1,56 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>风语小站</title><link>https://fengyuyexing.github.io</link><description>我的编码之旅</description><copyright>风语小站</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://fengyuyexing.github.io</link></image><lastBuildDate>Mon, 05 May 2025 05:06:24 +0000</lastBuildDate><managingEditor>风语小站</managingEditor><ttl>60</ttl><webMaster>风语小站</webMaster><item><title>我的第二篇博客</title><link>https://fengyuyexing.github.io/post/wo-de-di-er-pian-bo-ke.html</link><description>如果有多个博客，会怎样。</description><guid isPermaLink="true">https://fengyuyexing.github.io/post/wo-de-di-er-pian-bo-ke.html</guid><pubDate>Mon, 05 May 2025 05:06:00 +0000</pubDate></item><item><title>我的第一篇博客</title><link>https://fengyuyexing.github.io/post/wo-de-di-yi-pian-bo-ke.html</link><description>Hello World
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>风语小站</title><link>https://fengyuyexing.github.io</link><description>我的编码之旅</description><copyright>风语小站</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://fengyuyexing.github.io</link></image><lastBuildDate>Mon, 05 May 2025 07:56:28 +0000</lastBuildDate><managingEditor>风语小站</managingEditor><ttl>60</ttl><webMaster>风语小站</webMaster><item><title>使用 LSTM 进行多变量时间序列预测的保姆级教程</title><link>https://fengyuyexing.github.io/post/shi-yong-%20LSTM%20-jin-xing-duo-bian-liang-shi-jian-xu-lie-yu-ce-de-bao-mu-ji-jiao-cheng.html</link><description># [使用 LSTM 进行多变量时间序列预测的保姆级教程](https://avoid.overfit.cn/post/1a36216705f2441b80fca567ea61e365)
+
+
+```python
+import numpy as np
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM
+from tensorflow.keras.layers import Dense, Dropout
+import pandas as pd
+from matplotlib import pyplot as plt
+from sklearn.preprocessing import MinMaxScaler
+import seaborn as sns
+```
+
+
+```python
+# 设置单元格多个输出
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = 'all'
+```
+
+
+```python
+# 列出所有已安装的包及其版本
+!pip freeze &gt; requirements.txt
+```
+
+
+```python
+# 使用 watermark 魔术命令（推荐）
+# 安装 watermark 扩展后，可以一键输出环境信息：
+
+%load_ext watermark
+# 显示所有导入包的版本
+%watermark -iv 
+```
+
+    seaborn   : 0.12.2
+    IPython   : 8.12.2
+    tensorflow: 2.3.1
+    sklearn   : 1.0.2
+    matplotlib: 3.5.1
+    numpy     : 1.18.5
+    pandas    : 1.4.1
+    
+    
+
+
+```python
+
+```
+
+## 加载数据，并检查输出
+* csv文件中包含了谷歌从2001-01-25到2021-09-29的股票数据，数据是按照天数频率的。</description><guid isPermaLink="true">https://fengyuyexing.github.io/post/shi-yong-%20LSTM%20-jin-xing-duo-bian-liang-shi-jian-xu-lie-yu-ce-de-bao-mu-ji-jiao-cheng.html</guid><pubDate>Mon, 05 May 2025 07:55:59 +0000</pubDate></item><item><title>我的第二篇博客</title><link>https://fengyuyexing.github.io/post/wo-de-di-er-pian-bo-ke.html</link><description>如果有多个博客，会怎样。</description><guid isPermaLink="true">https://fengyuyexing.github.io/post/wo-de-di-er-pian-bo-ke.html</guid><pubDate>Mon, 05 May 2025 05:06:00 +0000</pubDate></item><item><title>我的第一篇博客</title><link>https://fengyuyexing.github.io/post/wo-de-di-yi-pian-bo-ke.html</link><description>Hello World
 。</description><guid isPermaLink="true">https://fengyuyexing.github.io/post/wo-de-di-yi-pian-bo-ke.html</guid><pubDate>Mon, 05 May 2025 04:34:50 +0000</pubDate></item></channel></rss>
