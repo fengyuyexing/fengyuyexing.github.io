@@ -1995,7 +1995,3 @@ y_pred_future_30_days
 
 
 # END!!!!
-
-![Image](https://github.com/user-attachments/assets/745223d6-d413-477f-ac9b-409e07c22a1c)
-![Image](https://github.com/user-attachments/assets/2d2a2ebb-d84c-4cfa-9168-a3a2a2a01b64)
-[timeseries Forecasting.md](https://github.com/user-attachments/files/20033184/timeseries.Forecasting.md)
