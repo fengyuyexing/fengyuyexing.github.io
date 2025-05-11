@@ -8,7 +8,7 @@
     <link href="/2025/05/11/%E6%96%B0%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
     <url>/2025/05/11/%E6%96%B0%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
     
-    <content type="html"><![CDATA[<h1 id="新写了一个博客进行测试"><a href="#新写了一个博客进行测试" class="headerlink" title="新写了一个博客进行测试"></a>新写了一个博客进行测试</h1><h1 id="创建新的博客"><a href="#创建新的博客" class="headerlink" title="创建新的博客"></a>创建新的博客</h1><p>hexo new “新的博客”</p><h1 id="清空缓存网页"><a href="#清空缓存网页" class="headerlink" title="清空缓存网页"></a>清空缓存网页</h1><p>hexo clean </p><h1 id="生成网页并推送"><a href="#生成网页并推送" class="headerlink" title="生成网页并推送"></a>生成网页并推送</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="新写了一个博客进行测试"><a href="#新写了一个博客进行测试" class="headerlink" title="新写了一个博客进行测试"></a>新写了一个博客进行测试</h1><h1 id="创建新的博客"><a href="#创建新的博客" class="headerlink" title="创建新的博客"></a>创建新的博客</h1><p>hexo new “新的博客”</p><h1 id="清空缓存网页"><a href="#清空缓存网页" class="headerlink" title="清空缓存网页"></a>清空缓存网页</h1><p>hexo clean </p><h1 id="生成网页并推送"><a href="#生成网页并推送" class="headerlink" title="生成网页并推送"></a>生成网页并推送</h1><p>hexo generate<br>hexo deploy</p>]]></content>
     
     
     
